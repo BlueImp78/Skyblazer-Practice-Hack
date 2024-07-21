@@ -1,0 +1,11 @@
+*.smc
+*.sfc
+*.srm
+*.sram
+*.usage
+*.sh
+*.7z
+*.zip
+*.bat
+asar.exe
+*.exe

@@ -23,6 +23,7 @@ hijack_lives_counter_update_1 = $048CD6
 hijack_every_frame = $009CE5
 hijack_start_select_check = $04846D
 hijack_room_update = $019191
+hijack_doors_room_update = $01AA79
 hijack_room_update_in_map = $04D0AC
 hijack_raglan_citadel_room_update = $02B748
 hijack_level_number_update = $04D4C9

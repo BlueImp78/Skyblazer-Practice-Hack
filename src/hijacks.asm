@@ -77,6 +77,10 @@ org hijack_room_update
 	JSL preserve_player_status
 	NOP
 
+org hijack_doors_room_update
+	JSL preserve_player_status
+	NOP
+
 org hijack_raglan_citadel_room_update
 	JSL preserve_player_status_3
 	NOP #3

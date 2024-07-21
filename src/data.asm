@@ -6,8 +6,8 @@ title_screen_text:
 	dw $3C9A, $3C9C, $3C8B, $3C8D, $3C9E, $3C93, $3C8D, $3C8F, $0000
 	;    H      A      C      K             v       
 	dw $3C92, $3C8B, $3C8D, $3C95, $0000, $3CBA
-	;    1      .      0
-	dw $3C82, $3CC0, $3C81
+	;    1      .      1
+	dw $3C82, $3CC0, $3C82
 
 
 	padbyte $00 : pad $20B202
