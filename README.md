@@ -17,17 +17,17 @@ It has features such as an open map with all levels available, RNG value display
 
 - Level title cards are skipped for slight faster loads into them.
 
-- After selecting a level, health/max health, magic, and selected magic are appropriately set based on which ones you should have by that point in the run.
+- After selecting a level, health/max health, magic, and selected magic are appropriately set based on what should have by that point in the run.
 
 - With the game paused, press SELECT to quit to world map, A to refill health and X to refill magic.
 
-- Your life counter now display the RNG value as it changes.
+- Your life counter now displays the RNG value as it changes.
 
-- Inside boss rooms, your gems counter display the boss's health.
+- Inside boss rooms, your gems counter displays the boss's health.
 
 - At any point in the stage, press SELECT to reload your current checkpoint, restarting with the same health and magic values you had when you entered that room, as well as selected magic (magic buffers also work when reloading).
 
-- If holding SELECT, press D-PAD Left or Right to previous or next checkpoint respectively (this wraps around, so going to the previous checkpoint while in the first room of a stage will put you at the boss room).
+- If holding SELECT, press D-PAD Left or Right to go to the previous or next checkpoint respectively (this wraps around, so going to the previous checkpoint while in the first room of a stage will put you at the boss room).
 
 ## Known Issues
 
