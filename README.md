@@ -14,8 +14,6 @@ It has features such as an open map with all levels available, RNG value display
 - No cutscenes, beating Raglan resets the room instead of playing the ending.
 
 - The map is open and all levels are available. Enter the old man's shrines to switch to the next continent, enter the first one to go to the intro stage.
-  
-- The game's intro movie is skipped, and the title screen plays the song you'd hear if you watched it until the end.
 
 - Level title cards are skipped for slight faster loads into them.
 
