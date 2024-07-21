@@ -2,6 +2,11 @@
 A practice oriented romhack for Skyblazer speedruns.
 It has features such as an open map with all levels available, RNG value display, boss health display, reloading/advancing through checkpoints, and more. See below for full feature list.
 
+## How to patch
+
+- Apply the .ips patch to your vanilla Skyblazer(U) ROM with the included Lunar IPS program. 
+- Enjoy.
+
 ## Features
 
 - Skipped game intro and logos, title screen no longer fadeouts after not pressing anything for too long.
