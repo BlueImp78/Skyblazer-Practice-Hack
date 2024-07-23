@@ -36,3 +36,5 @@ It has features such as an open map with all levels available, RNG value display
 - Mashing SELECT while the world map zooms in after selecting a stage can crash the game.
 
 - The RNG doesn't display in the intro stage.
+
+- Changing rooms while a boss is exploding can cause graphical glitches.
