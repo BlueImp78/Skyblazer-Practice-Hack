@@ -1,4 +1,4 @@
-# Skyblazer-Practice-Hack
+# Skyblazer Practice Hack
 A practice oriented romhack for Skyblazer speedruns.
 It has features such as an open map with all levels available, RNG value display, boss health display, reloading/advancing through checkpoints, and more. See below for full feature list.
 
