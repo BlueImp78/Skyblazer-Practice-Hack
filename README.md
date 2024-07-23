@@ -29,6 +29,8 @@ It has features such as an open map with all levels available, RNG value display
 
 - If holding SELECT, press D-PAD Left or Right to go to the previous or next checkpoint respectively (this wraps around, so going to the previous checkpoint while in the first room of a stage will put you at the boss room).
 
+- Hold START before entering Raglan's Citadel to skip to the boss rush section.
+
 ## Known Issues
 
 - The boss health display is not accurate for bosses with multiple targets (with the exception of the wall boss).
@@ -36,5 +38,3 @@ It has features such as an open map with all levels available, RNG value display
 - Mashing SELECT while the world map zooms in after selecting a stage can crash the game.
 
 - The RNG doesn't display in the intro stage.
-
-- Changing rooms while a boss is exploding can cause graphical glitches.
