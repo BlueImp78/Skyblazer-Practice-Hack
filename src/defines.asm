@@ -39,6 +39,7 @@ hijack_boss_health_update_2 = $02DD76
 hijack_boss_health_update_3 = $02E589
 hijack_boss_health_update_4 = $02FEEF
 hijack_boss_health_update_5 = $02EFCB
+hijack_boss_room_number_clear = $02CAF5
 hijack_stage_title_card = $04DACB
 hijack_stage_title_card_2 = $00820C
 hijack_citadel_enter = $02B78F

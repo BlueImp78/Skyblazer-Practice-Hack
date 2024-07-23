@@ -151,6 +151,11 @@ org hijack_boss_health_update_5
 	NOP #5
 
 
+;dont clear room number on boss death
+org hijack_boss_room_number_clear
+	NOP #5
+
+
 org hijack_citadel_enter
 	JSL citadel_room_number_update
 	NOP

@@ -213,7 +213,6 @@ reload_room:
 	DEC
 reload:
 	JSR check_boss_room
-
 	STA !room_number	
   	SEP #$20
 	STZ !player_pressed_high
@@ -267,8 +266,6 @@ check_boss_room:
 	LDX !level_number
 	CPX #$08 			;citadel already does this by default, doing this there would only slow down loads
 	BEQ .done  			
-	CPX #$05 			;and storm fortress doesn't load new tiles for the boss so no need
-	BEQ .done
 	STA !temp_3
 	JSR get_room_cap
 	LDA !room_number_cap
@@ -280,7 +277,7 @@ check_boss_room:
 	LDA !temp_3
 	CMP !temp_4
 	BEQ .done
-	STZ $1F37
+	STZ $1F37 			;clearing this address makes the game do the dma
 .done:
 	REP #$10
 	PLA
@@ -678,7 +675,6 @@ advance_citadel_room:
 ;put boss health in gems counter when they spawn.
 ;this routine is an actual tragedy.
 display_boss_health_init:
-print pc
   	LDA $020006,x  			;hijacked instruction
   	STA $0F90 			;hijacked instruction
 	PHA
