@@ -364,8 +364,12 @@ level_entry_set_stuff:
 	LDA !level_number
 	CMP #$18  			;dont enter shrine #3 (will softlock if entered)
 	BEQ .done 
+	CMP #$10 			;check if entering citadel
+	BEQ .check_start
+--:
   	LDA #$01 			;hijacked instruction
   	STA $7E5016			;hijacked instruction
+	STZ !room_number
 	STZ !room_number_mirror
 	LDA !level_number
 	CMP #$14
@@ -376,6 +380,29 @@ level_entry_set_stuff:
 	ASL
 	TAX 
 	JMP (set_level_stuff,x)
+
+
+.check_start:
+	PHA
+	LDA !player_held_high
+	AND #$10  			;if start held, skip to boss rush
+	BNE .skip_to_boss_rush
+	PLA
+	BRA --
+
+
+
+.skip_to_boss_rush:
+	PLA
+	LDA #$08
+	STA !level_number
+  	LDA #$01 			;hijacked instruction
+  	STA $7E5016			;hijacked instruction
+	STA !room_number
+	STA !room_number_mirror
+	LDA !level_number
+	BRA -
+	
 
 
 .goto_intro:

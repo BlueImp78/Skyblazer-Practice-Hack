@@ -32,6 +32,7 @@ hijack_map_level_beaten_check_2 = $04D5A0
 hijack_level_entry = $04D6BE
 hijack_level_entry_2 = $04D6CF
 hijack_map_set_path = $04D5CA
+hijack_map_room_number_update = $04D0AC
 hijack_initial_boss_health_update = $01819C
 hijack_boss_health_update = $02FDE6
 hijack_boss_health_update_2 = $02DD76

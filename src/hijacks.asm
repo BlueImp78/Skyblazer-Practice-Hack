@@ -110,6 +110,11 @@ org hijack_map_set_path
 	NOP #4
 
 
+;dont clear room number on level entry (needed for citadel autoscroller skip to work)
+org hijack_map_room_number_update
+	NOP #3
+
+
 ;faster transition into stages (2 seconds lol)
 org hijack_stage_title_card
 	LDA #$00
