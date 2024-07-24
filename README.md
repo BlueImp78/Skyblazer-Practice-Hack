@@ -31,6 +31,8 @@ It has features such as an open map with all levels available, RNG value display
 
 - Hold START before entering Raglan's Citadel to skip to the boss rush section.
 
+- If you're tired of the GODAWFUL map music, try to enter the shrine right before Dragonhill Forest to mute it. You're welcome.
+
 ## Known Issues
 
 - The boss health display is not accurate for bosses with multiple targets (with the exception of the wall boss).
